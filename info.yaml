@@ -24,7 +24,7 @@ documentation:
   author:       "Tek"      # Your name
   title:        "1-bit Full Adder"      # Project title
   language:     "Wokwi" # other examples include Verilog, Amaranth, VHDL, etc
-  description:  ""      # Short description of what your project does
+  description:  "A simple 1-bit Full Adder made in Wokwi"      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
@@ -36,13 +36,24 @@ documentation:
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
-    - A: addend
-    - B: augend
-    - Cin: Carry in
+    - A
+    - B
+    - Cin
+    - none
+    - none
+    - none
+    - none
+    - none
 # A description of what the outputs do (e.g. status LED, SPI MISO, etc)
   outputs:
-    - Cout: Carry out
-    - S: sum
+    - Cout
+    - S
+    - none
+    - none
+    - none
+    - none
+    - none
+    - none
 # A description of what the bidirectional I/O pins do (e.g. I2C SDA, I2C SCL, etc)
   bidirectional:
     - none
